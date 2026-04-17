@@ -29,6 +29,10 @@ span { background-color: blanchedalmond;}
 
 #blue-large {width: 200px}
 
+.test-div {background: rgb(103, 135, 169) ; margin: 30px; padding: 40px; }
+
+.my-flex { display: flex; }
+
 
 
 
