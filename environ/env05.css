@@ -13,13 +13,24 @@ h1 {color:blueviolet; }
 
 .page {color: yellow; font-weight: bold;}
 
-.storyzone {background-color:dimgray; padding:20px; margin: 30px;} 
+.storyzone {background-color:dimgray; padding:25px; margin: 30px; border-radius: 12px;
+    border: 3px solid yellow;
+    line-height: 1.8;
+    font-size: 18px;
+    max-width: 600px; } 
 
-.prop1 {width:140px; margin: 30px; padding:90px ;}
 
-.prop2 {width:140px; margin: 30px; padding:90px; }
 
-.head{background-color:dimgray; padding: 30px; margin: 40px ;}
+.prop1 {width:140px; margin: 30px; padding:20px ; border: 4px solid yellow;
+    border-radius: 10px;}
+
+.prop2 {width:140px; margin: 30px; padding:20px;  border: 4px solid yellow;
+    border-radius: 10px; }
+
+
+
+.head{background-color:dimgray; padding: 30px; margin: 40px ; border-radius: 12px;
+    border: 3px solid yellow;}
 
 
 .minion {width:800px;}
@@ -32,6 +43,16 @@ h1 {text-align: center;}
 
 #environDetails button {margin: 5px; padding: 10px 15px;}
 
-#final {text-align: center; margin-top: 20px;}
-
-#final {margin: 5px; padding: 10px 15px;}
+#final {
+    background-color: rgba(105, 105, 105, 0.9);
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid yellow;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 1.6;
+    min-height: 60px;
+}

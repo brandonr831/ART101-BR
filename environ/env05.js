@@ -57,7 +57,7 @@ function tuneGym(mood) {
     } else {
 
         $("#final").html(
-            "<p>Please type 'calm' or 'intense'.</p>"
+            "<p>Secret Message Jack is the GOAT.</p>"
         );
 
     }
@@ -65,7 +65,7 @@ function tuneGym(mood) {
 
 $("#tuneGym").click(function () {
 
-    let answer = prompt("Type calm or intense");
+    let answer = prompt("What mood are you feeling?, Type 'calm' to brighten the lights  or 'intense' to dim the lights.");
 
     tuneGym(answer);
 
